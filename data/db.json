@@ -1,0 +1,17 @@
+{
+  "ciudadanos": [
+    {
+      "id": 1,
+      "nombre": "juan",
+      "telefono": "5532004805",
+      "email": "juanjmichelena@outlook.com",
+      "codigo": "749363",
+      "expira": 1779470340690,
+      "verificado": true,
+      "fechaRegistro": 1779469440690
+    }
+  ],
+  "quejas": [],
+  "nextCiudadanoId": 2,
+  "nextQuejaId": 1
+}
