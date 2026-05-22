@@ -100,7 +100,7 @@ app.post('/api/registro', async (req, res) => {
   res.json({
     ok: true,
     mensaje: email?.trim() ? 'Código enviado a tu correo.' : 'Registro exitoso.',
-    ...(process.env.NODE_ENV !== 'production' && { codigo_demo: codigo }),
+    codigo_demo: codigo,
   });
 });
 
